@@ -66,8 +66,8 @@ button {
     letter-spacing: 2px;
     font-size: 18px;
     cursor: pointer ;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 60px;
     background-color: transparent;
     border: 3px solid transparent;
     border-image: radial-gradient(circle at 100%, rgba(40, 185, 231, 1) 25%, rgba(153, 10, 241, 1) 75%);
@@ -89,7 +89,7 @@ header .vortex-container h1{
     font-size: 42px;
 }
 header .vortex-container img{
-    width: 300px;
+    width: 250px;
 }
 header .vortex-container h2{
     font-family: "Lexend";
@@ -136,6 +136,7 @@ header video{
 }
 
 /* ///////////////////////////////////////////////////// */
+
 
 /* //////////////// PRO PACK CONTAINER //////////////////*/
 
