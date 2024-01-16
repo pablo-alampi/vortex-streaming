@@ -312,3 +312,49 @@ main .pro-pack-container{
     height: 250px;
     border-radius: 10px;
 }
+@import url('https://fonts.googleapis.com/css2? family= Bungee+Spice & display=swap');
+
+header{
+    border: 100px;
+    height: 100vh;
+    background-image: url(gp-explorer-2-billy-rebeudeter-annonce-une-belle-nouvelle-et-adresse-un-message-touchant-a-son-pere.jpg);
+    background-size:cover;
+    background-position: center;
+    width: auto;
+    margin: 0 100px 0 100px;
+}
+
+ header h1{
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+header .all-elements{
+/* border: solid 10px red; */
+border-radius: 20px;
+margin-top: 10%;
+
+
+
+}
+
+header div img{
+    display: flex;
+    justify-content: baseline;
+   margin: auto;
+   clip-path: circle(30%);
+   
+}
+
+header .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-radius: 15px;
+    column-gap: 50px;
+}
+ header .container iframe{
+    border-radius: 30px;
+ }
