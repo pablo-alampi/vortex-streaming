@@ -1,14 +1,16 @@
 // Demander l'âge de l'utilisateur
-var ageUtilisateur = prompt("???");
+var ageUtilisateur = prompt("quel age avez vous ? ");
+
+console.log(ageUtilisateur)
 
 // Convertir l'entrée en nombre
-var age = parseInt(???);
+var age = parseInt(ageUtilisateur);
 
 // Vérifier l'âge et afficher la boîte de dialogue appropriée
 if (isNaN(age)) {
   alert("Veuillez entrer un âge valide.");
 } else {
-  if (??? < ??) {
+  if (age < 16) {
     // Bloquer la navigation
     // Créer un élément div avec la classe "black-overlay"
     var overlayDiv = document.createElement("div");
@@ -18,9 +20,16 @@ if (isNaN(age)) {
     document.body.appendChild(overlayDiv);
 
     // Afficher une boîte de dialogue informant l'utilisateur
-    ???("Vous ne pouvez pas accéder au site en raison de votre âge.");
-  } ??? {
+    alert("Vous ne pouvez pas accéder au site en raison de votre âge.");
+  } else {
     // L'utilisateur a 16 ans ou plus, autoriser l'accès au site web
-    ???("Bienvenue sur Vortex Streaming !");
+    alert("Bienvenue sur Vortex Streaming !");
   }
 }
+
+
+// if (Condition) {
+//   si condition true faire ceci
+// } else {
+//   si condition false faire cela
+// }
