@@ -66,10 +66,10 @@ nav ul li a:hover{
 .dbs{
     background-image: url(/assets/pictures/dbzk_banner_final.webp);
     background-position: center;
-    background-size: contain;
+    background-size: 2200px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 85vh;
+    height: 80vh;
     
 
 }
@@ -260,7 +260,7 @@ h3{
 .toit2{
     font-family:"Metropolis,Gotham,Helvetica Neue,Helvetica,Arial,sans-serif";
     font-weight: 1000;
-    font-size: 22;
+    font-size: 22px;
    /* width: 90%; */
    /* margin-right: 500px; */
    text-align: right;
@@ -320,6 +320,7 @@ h4{
    height: 500px;
 border: #ef3f01 5px solid;
 background-color: black;
+margin-bottom: 100px;
 
 }
 .grand-revendeur{
@@ -334,6 +335,7 @@ background-color: black;
     font-size: 30px;
     margin-top: 40px;
     color: white;
+    margin-bottom: 100px;
 }
 .bouton-revendeur{
      margin-top: 20px;
@@ -357,12 +359,37 @@ background-color: black;
     color: white;
     background-color: transparent;
 }
-h6{
-    display: flex;
-    align-items: flex-end;
-}
+
 
 hr{
     width: 80%;
     margin: 50px auto
+}
+/* //////////////////////derniere section/////////////////// */
+.fond-section{
+    background-image: url(/assets/pictures/dbzk_background_1920x1080.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news{
+    font-family:"Metropolis,Gotham,Helvetica Neue,Helvetica,Arial,sans-serif";
+    font-size: 50px;
+    margin-left: 100px;
+    font-weight: 700px;
+}
+.petit-fond-section{
+    background-color:white;
+border: #ef3f01 solid 5px;
+display: flex;
+flex-direction: column;
+margin-left: 200px;
+width: 800px;
+height: 600px;
+}
+h6{
+    font-family:"Metropolis,Gotham,Helvetica Neue,Helvetica,Arial,sans-serif";
+    font-size: 20px;
+    font-weight: 1000;
+    color: #ef3f01;
 }
