@@ -316,9 +316,9 @@ h4{
 .premier-container-section-3{
     display: flex;
     flex-direction: column;
-   width: 420px;
+   width: 410px;
    height: 500px;
-border: #ef3f01 5px solid;
+/* border: #ef3f01 5px solid; */
 background-color: black;
 margin-bottom: 100px;
 
@@ -380,16 +380,47 @@ hr{
 }
 .petit-fond-section{
     background-color:white;
-border: #ef3f01 solid 5px;
+/* border: #ef3f01 solid 5px; */
 display: flex;
 flex-direction: column;
-margin-left: 200px;
+margin-left: 150px;
 width: 800px;
 height: 600px;
+margin-right: 50px;
 }
 h6{
     font-family:"Metropolis,Gotham,Helvetica Neue,Helvetica,Arial,sans-serif";
     font-size: 20px;
     font-weight: 1000;
     color: #ef3f01;
+}
+.FIN{
+    display: flex;
+    flex-direction: row;
+}
+.grands{
+  
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    margin-right: 20px;
+    
+}
+.petit-de-petit-fond{
+   
+    display: flex;
+    flex-direction: row;
+  width: 100%;
+  height: 168px;
+  margin-bottom: 10px;
+}
+.arriere{
+    background-color: white;
+    font-family:"Metropolis,Gotham,Helvetica Neue,Helvetica,Arial,sans-serif";
+    font-weight: 1000;
+    font-size: 18px;
+   width: 100%;
+   height: 158px;
+   /* margin-right: 500px; */
+   /* text-align: right; */
 }
